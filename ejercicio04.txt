@@ -1,0 +1,9 @@
+title New note
+
+browser->server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+server-> browser:new_nota_spa.js
+
+note over browser:
+browser executes the event handler
+that renders the new notes to display
+end note
